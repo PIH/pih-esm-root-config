@@ -4,11 +4,11 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
   entry: path.resolve(__dirname, "src/root-config.ts"),
   output: {
-    filename: "root-config.js",
+    filename: "openmrs-esm-root-config.js",
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "system"
   },
-  externals: ["single-spa"],
+  externals: ["single-spa", "@openmrs/esm-config"],
   devtool: "sourcemap",
   mode: "development",
   module: {
