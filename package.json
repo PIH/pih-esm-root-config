@@ -1,6 +1,6 @@
 {
-  "name": "ampath-esm-root-config",
-  "description": "The single-spa root config for ampath",
+  "name": "pih-esm-root-config",
+  "description": "The single-spa root config for PIH",
   "scripts": {
     "test": "jest",
     "typescript": "tsc",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AMPATH/ampath-esm-root-config.git"
+    "url": "git+https://github.com/pih/pih-esm-root-config.git"
   },
   "files": [
     "dist"
@@ -22,9 +22,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AMPATH/ampath-esm-root-config/issues"
+    "url": "https://github.com/pih/pih-esm-root-config/issues"
   },
-  "homepage": "https://github.com/AMPATH/ampath-esm-root-config#readme",
+  "homepage": "https://github.com/pih/pih-esm-root-config#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
@@ -48,11 +48,9 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "@openmrs/esm-root-config": "^1.1.0",
     "@types/jest": "^24.0.15",
     "@types/systemjs": "^0.20.6",
     "joeldenning-root-config": "^1.0.0",
-    "single-spa": "^4.3.5",
-    "zone.js": "^0.9.1"
+    "single-spa": "^4.3.5"
   }
 }

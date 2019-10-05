@@ -1,1 +1,1 @@
-## Ampath Root Config For Single SPA applications
+## PIH Root Config For Single SPA applications

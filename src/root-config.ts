@@ -1,9 +1,12 @@
 import { start } from "single-spa";
-import "./register-shared-deps";
-import { registerAllCoreApplications } from "@openmrs/esm-root-config";
-import { registerAmpathApplications } from "./ampath-root-config";
+// import { registerAllCoreApplications } from "@openmrs/esm-root-config";
+import {
+  registerAllCoreApplications,
+  provide
+} from "@openmrs/esm-root-config/dist/openmrs-esm-root-config.lib.js";
+import * as config from "./config.json";
 
-registerAmpathApplications();
+provide(config);
 registerAllCoreApplications();
 
 start();
