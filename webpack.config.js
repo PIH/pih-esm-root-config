@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "system"
   },
-  externals: ["single-spa", "@openmrs/esm-config"],
+  externals: ["single-spa", "@openmrs/esm-module-config"],
   devtool: "sourcemap",
   mode: "development",
   module: {
