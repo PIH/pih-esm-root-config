@@ -1,5 +1,8 @@
 {
   "@openmrs/esm-login": {
-    "logoImgSrc": "/openmrs/frontend/assets/pih-logo.png"
+    "logo": {
+      "src": "https://cdn-images-1.medium.com/max/604/1*EpiG9w6Kl8vaMGysSIAmbA@2x.png",
+      "alt": "Partners in Health"
+    }
   }
 }
