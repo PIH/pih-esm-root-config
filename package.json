@@ -1,6 +1,7 @@
 {
   "name": "pih-esm-root-config",
   "description": "The single-spa root config for PIH",
+  "main": "dist/pih-esm-root-config.js",
   "scripts": {
     "test": "jest",
     "typescript": "tsc --resolveJsonModule --esModuleInterop",
