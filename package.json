@@ -58,5 +58,5 @@
     "@types/systemjs": "^6.1.0",
     "single-spa": "^4.3.5"
   },
-  "version": "2.0.2"
+  "version": "2.0.3"
 }
