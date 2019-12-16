@@ -8,7 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "system"
   },
-  externals: ["single-spa", "@openmrs/esm-module-config"],
+  externals: [
+    "single-spa",
+    "@openmrs/esm-module-config",
+    "i18next",
+    "i18next-react"
+  ],
   devtool: "sourcemap",
   mode: "development",
   module: {
