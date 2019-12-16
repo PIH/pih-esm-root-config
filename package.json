@@ -8,7 +8,8 @@
     "start": "webpack-dev-server",
     "start-https": "webpack-dev-server --https",
     "lint": "eslint . --ext ts",
-    "build": "webpack"
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -42,8 +43,6 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^3.1.0",
-    "i18next-icu": "^1.1.2",
-    "i18next-xhr-backend": "^3.2.2",
     "jest": "^24.8.0",
     "jest-cli": "^24.8.0",
     "prettier": "^1.19.1",
@@ -57,7 +56,6 @@
     "@openmrs/esm-module-config": "^1.1.0",
     "@types/jest": "^24.0.23",
     "@types/systemjs": "^6.1.0",
-    "i18next": "^19.0.2",
     "single-spa": "^4.3.5"
   },
   "version": "2.0.2"
