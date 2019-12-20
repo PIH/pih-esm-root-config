@@ -3,6 +3,12 @@
     "logo": {
       "src": "https://cdn-images-1.medium.com/max/604/1*EpiG9w6Kl8vaMGysSIAmbA@2x.png",
       "alt": "Partners in Health"
+    },
+    "links": {
+      "loginSuccess": {
+        "url": "/openmrs/mirebalais/home.page",
+        "spa": false
+      }
     }
   }
 }
