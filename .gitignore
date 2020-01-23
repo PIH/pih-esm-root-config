@@ -61,3 +61,7 @@ dist
 .DS_Store
 
 *.code-workspace
+
+# Intellij integration
+*.iml
+.idea/
