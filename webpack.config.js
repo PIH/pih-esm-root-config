@@ -10,9 +10,9 @@ module.exports = {
   },
   externals: [
     "single-spa",
-    "@openmrs/esm-module-config",
     "i18next",
-    "i18next-react"
+    "i18next-react",
+    "@openmrs/esm-module-config"
   ],
   devtool: "sourcemap",
   mode: "development",
