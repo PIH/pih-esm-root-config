@@ -10,5 +10,10 @@
         "spa": false
       }
     }
+  },
+  "@openmrs/esm-home": {
+    "buttons": {
+      "enabled": true
+    }
   }
 }
