@@ -6,13 +6,13 @@ module.exports = {
   output: {
     filename: "pih-esm-root-config.js",
     path: path.resolve(__dirname, "dist"),
-    libraryTarget: "system"
+    libraryTarget: "system",
   },
   externals: [
     "single-spa",
     "i18next",
     "i18next-react",
-    "@openmrs/esm-module-config"
+    "@openmrs/esm-module-config",
   ],
   devtool: "sourcemap",
   mode: "development",
@@ -21,26 +21,26 @@ module.exports = {
       {
         // https://github.com/systemjs/systemjs#compatibility-with-webpack
         parser: {
-          system: false
-        }
+          system: false,
+        },
       },
       {
         test: /\.(m?js|ts|tsx)$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
+          loader: "babel-loader",
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".jsx", ".js"]
+    extensions: [".tsx", ".ts", ".jsx", ".js"],
   },
   devServer: {
     headers: {
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
     },
-    disableHostCheck: true
+    disableHostCheck: true,
   },
-  plugins: [new CleanWebpackPlugin()]
+  plugins: [new CleanWebpackPlugin()],
 };
