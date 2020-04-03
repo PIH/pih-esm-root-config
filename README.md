@@ -1,1 +1,3 @@
-## PIH Root Config For Single SPA applications
+# Moved
+
+See [PIH/spa-frontend](https://github.com/PIH/spa-frontend)
